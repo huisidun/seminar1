@@ -1,10 +1,10 @@
 while True:
     answer = input("сделал лабу по элтеху? (Y/N)\n").strip().upper()
     if answer == 'Y':
-        print("скинь")
+        print("скинь пж")
         break
     elif answer == 'N':
-        print("соболезную")
+        print("соболезную..")
         break
     else:
-        print("Y/N!!!!")
+        print("\033[91mY/N!!!\033[0m")
